@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    /* background: linear-gradient(0.25turn, #B0824A 0.5rem, #D2BF9F, #B0824A 95%); #B0824A, #D2BF9F */
+    background-image: url("https://img.freepik.com/foto-gratis/fondo-papel-grunge_1048-10849.jpg");
+    background-size: cover;
+    font-family: "Libre Baskerville", Arial, Helvetica, sans-serif;
+    display: flex;
+    color: #28190e;
+}
+header{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+}
+header img{
+    width: 10rem;
+    margin-left: 1rem;
+    border-radius: 50%;
+    margin-bottom: 0.5rem;
+}
+h1{
+    font-size: 3rem;
+    margin-left: 1rem;
+    text-decoration: underline;
+}
+hr{
+    width: 100%;
+    border: 1px solid #28190e;
+}
+.wrapper{
+    width: 60%;
+    margin-left: auto;
+}
+aside{
+    width:20%;
+    margin: 17rem 0;
+}
+li{
+    margin-top:1rem;
+    font-weight: bold;
+    list-style-type:none;
+    border-left: double #28190e 2px;
+    padding-left: 0.5rem;
+}
+li:hover{
+    text-decoration: underline;
+}
+a{
+    text-decoration: none;
+    color: #28190e;
+    font-size:1.3rem;
+}
+p a{
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: underline;
+}
