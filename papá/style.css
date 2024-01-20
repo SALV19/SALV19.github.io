@@ -9,6 +9,9 @@ body{
     display: flex;
     color: #28190e;
 }
+.bg{
+    background: #D2BF9F;/* #B0824A, #D2BF9F */
+}
 header{
     margin-top: 1rem;
     display: flex;
