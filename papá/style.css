@@ -5,7 +5,6 @@
 body{
     /* background: linear-gradient(0.25turn, #B0824A 0.5rem, #D2BF9F, #B0824A 95%); #B0824A, #D2BF9F */
     background-image: linear-gradient(rgb(225, 205, 165, 0.5), rgb(225, 205, 165, 0.5)), url("https://img.freepik.com/foto-gratis/fondo-papel-grunge_1048-10849.jpg");
-
     background-size: cover;
     font-family: "Libre Baskerville", Arial, Helvetica, sans-serif;
     display: flex;
