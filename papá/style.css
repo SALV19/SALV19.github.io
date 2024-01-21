@@ -70,3 +70,12 @@ cite{
     display: block;
     text-align: right;
 }
+footer{
+    width: 60%;
+    margin-left:1rem;
+    margin-right: clamp(5rem 30% 40rem);
+    margin-bottom: 2rem;
+}
+ol li{
+    list-style-type: decimal;
+}
