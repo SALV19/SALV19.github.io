@@ -4,7 +4,7 @@
 
 body{
     /* background: linear-gradient(0.25turn, #B0824A 0.5rem, #D2BF9F, #B0824A 95%); #B0824A, #D2BF9F */
-    background-image: linear-gradient(rgb(225, 205, 165, 0.5), rgb(225, 205, 165, 0.5)), url("https://img.freepik.com/foto-gratis/fondo-papel-grunge_1048-10849.jpg");
+    background-image: linear-gradient(rgba(249, 240, 222, 0.7), rgba(254, 246, 230, 0.7)), url("https://img.freepik.com/foto-gratis/fondo-papel-grunge_1048-10849.jpg");
     background-size: cover;
     font-family: "Libre Baskerville", Arial, Helvetica, sans-serif;
     display: flex;
@@ -15,6 +15,7 @@ body{
     margin-left:1rem;
     margin-right: clamp(5rem 30% 40rem);
     margin-bottom: 2rem;
+    text-align:justify;
 }
 header{
     margin-top: 1rem;
@@ -50,7 +51,7 @@ li{
     border-left: double #28190e 2px;
     padding-left: 0.5rem;
 }
-li:hover{
+ul li:hover{
     text-decoration: underline;
 }
 a{
@@ -79,3 +80,43 @@ footer{
 ol li{
     list-style-type: decimal;
 }
+.reference{
+    display:flex;
+    flex-flow:column;
+    margin-left:3rem;
+    flex-wrap:wrap;
+    height:7rem;
+    line-height:0.1rem;
+    width: 80%;
+}
+.h2{
+    display:flex;
+    flex-flow:column;
+    text-align: center;
+}
+.h2 h1{
+    margin-bottom:0.5rem;
+    margin-top:0.5rem;
+}
+.images{
+    display:flex;
+}
+.images img{
+    margin: 0 1rem;
+    object-fit: contain;
+}
+.float-r{
+    float:right;
+    margin-left:0.7rem;
+}
+.width{
+    width:50%;
+}
+.float-l{
+    float:left;
+    margin-right:0.7rem;
+}
+.height{
+    height:50%;
+}
+
