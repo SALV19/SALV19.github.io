@@ -128,7 +128,7 @@ ol li{
     margin:0;
     width: 100%;
     height: 7rem;
-    background: linear-gradient(0.25turn, rgb(183, 154, 72, 0.5), rgb(238, 208, 127, 0.5), rgb(183, 154, 72, 0.5) );
+    background: linear-gradient(0.25turn, rgb(238, 208, 127, 0.2), rgb(245, 239, 215, 0.5), rgb(238, 208, 127, 0.2));
     overflow:hidden;
 }
 a img{
@@ -165,3 +165,111 @@ a img{
     }
 }
 
+blockquote
+{
+    background: #f3dcc2;
+    padding: 1rem;
+    border:2px solid #f3c999;
+    border-radius:10px;
+}
+.center
+{
+    margin: 2rem auto;
+}
+.contact
+{
+    padding:2rem;
+}
+.btn{
+    height: 40px;
+    border:none;
+    outline:none;
+    font-size:15px;
+    background:#222;
+    color:#f5f5f5;
+    border-radius:10px;
+    cursor:pointer;
+}
+.btn:hover{
+    padding:0 0.5rem;
+    margin:0;
+}
+.pop-up{
+    position:fixed;
+    top:-110%;
+    opacity:0;
+    left:50%;
+    transform: translate(-50%, 50%) scale(1.25);
+    width:380px;
+    padding:20px 30px;
+    background: #F5EFD7;
+    box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, .15);
+    border-radius:10px;
+    transition: top 0ms ease-in-out 200ms,
+                opacity 200ms ease-in-out 0ms,
+                transform 200ms ease-in-out 0ms;
+                
+}
+.pop-up.active{
+    top:50%;
+    opacity:1;
+    transform:translate(-50%, -50%) scale(1);
+    transition: top 0ms ease-in-out 200ms,
+                opacity 200ms ease-in-out 0ms,
+                transform 200ms ease-in-out 0ms;
+    
+}
+.pop-up #close-btn{
+    position: absolute;
+    top:10px;
+    right:15px;
+    width:15px;
+    border:none;
+    background:none;
+    width:15px;
+    height:15px;
+    font-size:1.5rem;
+    cursor:pointer;
+}
+.pop-up form h2{
+    text-align: center;
+    color:#222;
+    margin: 10px 0px 20px;
+    font-size:25px;
+}
+.pop-up form .form-element{
+    margin:15px 0px;
+}
+.pop-up form label{
+    font-size:14px;
+    color: #222;
+}
+.pop-up form .form-element input{
+    margin-top:5px;
+    display:block;
+    width:100%;
+    padding: 10px;
+    outline:none;
+    border:1px solid #aaa;
+    border-radius:5px;
+}
+.pop-up form .form-element button{
+    width:100%;
+    height: 40px;
+    border:none;
+    outline:none;
+    font-size:15px;
+    background:#222;
+    color:#f5f5f5;
+    border-radius:10px;
+    cursor:pointer;
+}
+.pop-up .error{
+    margin-top:0.5rem;
+    text-align: center;
+    font-size:12px;
+    color: #D01F31;
+}
+.hidden{
+    display:hidden;
+}
