@@ -35,6 +35,8 @@ button{
 }
 #no{
     background-color: #EF4040;
+    transition: top 1s,
+                left 1s;
 }
 p{
     font-family: "Lugrasimo", cursive;
