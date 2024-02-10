@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    display:flex;
+    flex-flow:column;
+    align-items: center;
+    width:100vw;
+    height:100vh;
+    background: linear-gradient(#F8BDEB, #FDE5D4);
+    overflow:hidden;
+}
+h1{
+    font-family: "Lugrasimo", cursive;
+    font-size:3rem;
+    text-align: center;
+    color:#D63484;
+    
+}
+img{
+    width:30rem;
+}
+button{
+    border:none;
+    font-size:2rem;
+    width:5rem;
+    height:3rem;
+    border-radius: 1rem;
+    margin:1rem;
+    cursor:pointer;
+}
+#si{
+    background-color:#0D9276;
+}
+#no{
+    background-color: #EF4040;
+}
+p{
+    font-family: "Lugrasimo", cursive;
+    font-size:1.5rem;
+    margin:0 1.5rem;
+    color:#D63484;
+    margin-bottom:1rem;
+}
+.enfasis{
+    margin:1.5rem;
+    font-size:1.8rem;
+    text-decoration: underline;
+}
