@@ -1,6 +1,6 @@
 const si = document.querySelector("#si");
 const no = document.querySelector("#no");
-
+const inseguridad = document.querySelector("#btnChange");
 let scale = 1;
 
 function nope() 
@@ -8,6 +8,7 @@ function nope()
         no.style.position = "absolute";
         no.style.top = (Math.floor(Math.random() * 80)+10).toString() + "%";
         no.style.left = (Math.floor(Math.random() * 80)+10).toString() + "%";
+        inseguridad.href = "sehonesta.html";
         if(scale <= 1.5)
         {
             scale += 0.1;
