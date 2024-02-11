@@ -7,9 +7,9 @@ body{
     flex-flow:column;
     align-items: center;
     width:100vw;
-    height:100vh;
+    height:100%;
     background: linear-gradient(#F8BDEB, #FDE5D4);
-    overflow:hidden;
+    overflow-x:hidden;
 }
 h1{
     font-family: "Lugrasimo", cursive;
