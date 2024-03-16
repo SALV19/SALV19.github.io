@@ -1,3 +1,5 @@
+
+
 document.querySelector("#contact-info").addEventListener("click", 
         function(){
             document.querySelector(".pop-up").classList.add("active");
